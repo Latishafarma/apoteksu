@@ -1,0 +1,8 @@
+{
+  "name": "ApotekSu - Clinical \u0026 Retail Pharmacy (Enterprise Edition)",
+  "description": "Platform POS kasir apotek cerdas dan praktek apoteker klinis dengan pemantauan interaksi obat otomatis, master harga berjenjang, analitik penyakit ICD-10, dan sinkronisasi database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
