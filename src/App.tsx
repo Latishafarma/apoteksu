@@ -23,6 +23,7 @@ import {
   X,
 } from 'lucide-react';
 import { auth } from './lib/firebase';
+import pharmacistAvatarImg from './assets/images/pharmacist_avatar_1795004725785.jpg';
 import {
   apiRequest,
   getStoredTenantSession,
@@ -595,7 +596,7 @@ export default function App() {
             <div className="flex items-center gap-3">
               {!avatarFailed ? (
                 <img
-                  src="/src/assets/images/pharmacist_avatar_1795004725785.jpg"
+                  src={pharmacistAvatarImg}
                   alt="Foto Apoteker Penanggung Jawab"
                   referrerPolicy="no-referrer"
                   onError={() => setAvatarFailed(true)}

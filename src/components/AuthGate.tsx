@@ -11,6 +11,7 @@ import {
   X,
 } from 'lucide-react';
 import { publicApiRequest, type StoredTenantSession } from '../lib/apiClient';
+import clinicHeroImg from '../assets/images/latisha_clinic_hero_1795004724363.jpg';
 
 interface DetectedEmployeeMatch {
   id: number;
@@ -233,7 +234,7 @@ export function AuthGate({ onLoginSuccess }: AuthGateProps) {
           <div className="lg:col-span-6 relative min-h-[280px] lg:min-h-full bg-red-950">
             {!imgFailed ? (
               <img
-                src="/src/assets/images/latisha_clinic_hero_1795004724363.jpg"
+                src={clinicHeroImg}
                 alt="Interior Apotek Klinis Latisha Farma"
                 referrerPolicy="no-referrer"
                 onError={() => setImgFailed(true)}
